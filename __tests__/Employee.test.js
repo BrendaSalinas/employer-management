@@ -12,13 +12,13 @@ test('we are testing the name function getName()', () => {
 });
 
 test('we are testing the id function getId()', () => {
-    expect(employee.getId().toBe('546'));
+    expect(employee.getId()).toBe('546');
 });
 
 test('we are testing the email function getEmail()', () => {
-    expect(employee.getEmail().toBe('brenda.salinas2128@gmail.com'));
+    expect(employee.getEmail()).toBe('brenda.salinas2128@gmail.com');
 });
 
 test('we are testing the role function getRole()', () => {
-    expect(employee.getRole().toBe('Employee'));
+    expect(employee.getRole()).toBe('Employee');
 });
