@@ -25,5 +25,5 @@ test('we are testing the role function getRole()', () => {
 });
 
 test('we are testing the function officeNumber()', () => {
-    expect(manager.officeNumber()).toBe('3');
+    expect(manager.getOfficeNumber()).toBe('3');
 });
