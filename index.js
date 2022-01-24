@@ -33,9 +33,22 @@ prompt(
     let questions = [];
 
     items.forEach(item => {
-        questions.push({type:'input',name:item,message:`What is your ${item}?`})
-    });
+        questions.push(
+            {
+            type:'input',
+            name: item ,
+            message:`What is your ${item}?`
+        })
+    // }).then(projectData => {
 
-    prompt(questions).then(console.log);
+    })
+
+    // prompt(questions).then(console.log);
 });
 
+
+//generating the site 
+
+//Generate page 
+
+// const generatePage = () => 
