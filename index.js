@@ -39,11 +39,9 @@ prompt(
             name: item ,
             message:`What is your ${item}?`
         })
-    // }).then(projectData => {
-
     })
 
-    // prompt(questions).then(console.log);
+    prompt(questions).then(console.log);
 });
 
 
